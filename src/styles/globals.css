@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-secondary dark:bg-gray-800 dark:text-gray-400;
+  }
+}
+.privacy-legal {
+  @apply mx-auto max-w-5xl;
+}
+.privacy-legal h1 {
+  @apply text-3xl font-semibold;
+}
+.privacy-legal h2 {
+  @apply mt-3 text-2xl;
+}
+
+.privacy-legal p {
+  @apply mt-1 text-lg;
+}
